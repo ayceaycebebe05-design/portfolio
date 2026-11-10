@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ILMB PORTFOLIO</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb;
+            color: #26364A;
+            line-height: 1.6;
+        }
+
+        #header {
+            background-color:#142D4E;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+
+        #profile {
+            text-align: center;
+            margin: 30px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color:#1E3A5F;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 18px;
+            display: inline-block;
+            font-weight: bold;
+         
+        }
+
+        #footer {
+            background-color:#142D4E;
+            color:white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        /* class */
+        .title {
+            font-size: 32px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+        }
+
+        .profile-picture {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #b8cde3;
+        }
+
+        .box {
+            background-color:#FFFFFF;
+            color: #26364A;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            color: #142D4E;
+            text-align: center;
+        }
+
+        .school-image {
+            width: 150px;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+            margin: 10px auto;
+        }
+
+        /* div */
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- header -->
+    <div id ="header">
+        <h1 class="title">Hi, I'm Iza Loren!</h1>
+        <p class="subtitle">My Portfolio Website</p>
+    </div>
+
+    <!-- main container -->
+    <!-- ugma id period and den ugma asteres class -->
+    <div class="container">
+
+        <!-- profile -->
+        <div id="profile">
+            <img src="prof.png" width="200" height="200" class="profile-picture">
+
+            <div class="information">
+                <h2>
+                    <p><b>Name:</b> Iza Loren Bangay Maro</p>
+                </h2>
+            </div>
+        </div>
+
+        <!-- navigation -->
+        <nav>
+            <a href="#header">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#website">Online Platform</a>
+            <a href="#footer">Contact</a>
+        </nav>
+
+        <!-- about sako -->
+        <div id="about">
+            <h3 class="section-title">About Me</h3>
+
+            <p>
+                I am Iza Loren B. Maro from Barangay Salag Siaton Negros Oriental.
+                I am a friendly and responsible person who enjoys meeting new people.
+                I always do my best in school and strive to improve myself every day.
+            </p>
+
+            <p>
+                I am an irregular student here at <abbr title="Negros Oriental State University-Siaton Campus">NORSU-SC</abbr> 
+                because I was not able to pass the entrance exam when I first took it at NORSU-SC.
+                I did not want to stop studying for one year, so my parents decided to enroll me at 
+                <abbr title="Colegio De Santa Catalina De Alejandria">COSCA</abbr>, 
+                a private Catholic school in Dumaguete City.
+            </p>
+
+            <p>
+                I took BS Criminology there, and honestly, it was a great experience for me.
+                Being a cadet at COSCA gave me many memorable experiences
+                I met new friends and learned many things along the way.
+            </p>
+
+            <p>
+                After some time, I decided to continue my studies at NORSU-SC. 
+                Now, I am already a 3rd-year regular <abbr title="Bachelor of Science in Information Technology">BSIT</abbr>student here.
+                Looking back, I am thankful for the experience 
+                I had at COSCA because it became an important part of my journey as a student.
+            </p>
+        </div>
+
+        <!-- educational -->
+        <div id="education">
+            <h2 class="section-title">Educational Background</h2>
+
+            <div class="box">
+                <dl>
+                    <!-- nag kuan syag description list -->
+                    <dt><b>Elementary</b></dt>
+                    <dd>Salag Elementary School 2016</dd>
+
+                    <dt><b>Junior High School 2017</b></dt>
+                    <dd> <abbr title="Roman Catholic Bishop of Dumaguete">RCBD</abbr>-Carmel High School, Inc.</dd>
+
+                    <img src="band.jpg.jpg" width="150" height="200" class="school-image">
+
+                    <dt><b>Senior High School 2020</b></dt>
+                    <dd><abbr title="Roman Catholic Bishop of Dumaguete">RCBD</abbr>-Carmel High School, Inc.</dd>
+
+                    <img src="graduation.jpeg.jpg" width="150" height="200" class="school-image">
+
+                    <dt><b>College</b></dt>
+                    <dd>Colegio De Santa Catalina De Alejandria 2023</dd>
+                     <img src="iza.jpg" width="150" height="200" class="school-image">
+
+
+                    <dt><b>Currently</b></dt>
+                    <dd>Negros Oriental State Univeristy- Siaton Campus</dd>
+                </dl>
+            </div>
+        </div>
+
+        <!-- hobbies -->
+        <div id="hobbies">
+            <h3 class="section-title">My Hobbies</h3>
+
+            <div class="box">
+                <!-- ul kay mao nag unordered list while and li kay nag defines sya sa list items -->
+                <ul>
+                    <li>Limpyo sa balay</li>
+                    <li>Magluto</li>
+                    <li>Magpa music</li>
+                    <li>Higda dako lingkod gamay</li>
+                    <li>Dili mawala ang mag cellphone</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- website -->
+        <div id="website">
+            <h3 class="section-title">Online Platform</h3>
+
+            <div class="box">
+                <p>
+                    <a href="https://www.facebook.com/share/19npC6vXMV/" target="_blank">Visit My Facebook</a><br>
+                    <a href="https://www.instagram.com/izlrn_?vrfl=MWJjcWVqY3B1bGlhcQ==" target="_blank">Visit My Instagram</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- last -->
+        <div id="footer">
+            <p>Contact Number: 09458611880</p>
+            <p>izalorenmaro067@gmail.com</p>
+            <p>© 2026 Iza Loren B. Maro Portfolio</p>
+        </div>
+
+    </div>
+</body>
+</html>
